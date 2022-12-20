@@ -1,0 +1,686 @@
+
+
+.header
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #333;
+  /* background-color: #21272f; */
+}
+.logo{
+  
+   margin-left: 15%;
+   padding-top: 0.9%;
+    font-size: 2rem; 
+    color: rgb(47, 150, 7);
+
+
+}
+.logo i{
+    transform: skew(10deg, 5deg);
+    
+    }
+.fa-heart:before {
+    content: "\f004";
+    color: red;
+   
+}
+
+.header i{
+    color: rgb(1, 36, 1);
+}
+
+.Menu ul{    
+ margin-right: 3rem;
+}
+.Menu ul li
+{
+     width: 100%;
+     padding-right: 10px;;
+     list-style: none;
+    text-decoration: none;
+    display: inline;
+    font-size: 17px;
+       
+}
+.Menu li:hover{
+    cursor: pointer; 
+    
+}
+/* Main contents */
+
+.main-contents
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    background-color:whitesmoke;
+    box-shadow: 10px 5px 15px 5px #0c7b65
+}
+.main-contents img{
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+ .info
+ {
+      width: 75%;
+     height: 67%;
+      text-align: left;
+     margin-top: 200px;
+
+}
+ .info h1{
+     color: #0c7b65;
+ }
+ .btn
+ {
+ 
+ width: 150px;
+     height: 50px;
+     background-color: white;
+     border-radius: 5px;
+     border-color:#0c7b65;;
+     border: 1px solid;
+   
+    color:#0c7b65;
+    text-align: center;
+  
+    }
+.btn:hover
+{   
+    
+background-color:#0c7b65;;
+ cursor: pointer;
+transition: 0.6s all;
+color: white;
+}
+.btn i:hover{color: white;}
+.btn span{
+   width: 100%;
+    height: 100%;
+    /* margin-top: 12px;
+    padding-top: 20px; */
+font-size: 18px;
+color:#0c7b65;
+     
+
+
+  
+
+
+}
+
+.btn span:hover
+{
+    color: white;
+
+}
+
+.static-info
+{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+   margin-top: 50px;
+   margin-left: 15%;
+  
+}
+.static-info i{
+    color: #0c7b65;
+    font-size: 4rem;
+    
+}
+
+
+.static-info h1,h3{
+    color: #333;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.doc-num h1{
+    
+   font-size: 50px;   
+  font-stretch: ultra-expanded;
+}
+
+.doctors ,.satisfy ,.bed ,.available
+{
+
+    width: 21%;
+       margin-left: 1%;
+     height: 170px;
+      border: 2px solid;
+   border-color:solid #0c7b65 ;
+   border-radius: 5px ;
+   text-align: center;
+   padding-top: 20px;
+   line-height: 5px;   
+ box-shadow:  3px 3px #0c7b65 ;
+    
+
+
+}
+.doctors ,.satisfy ,.bed ,.available:hover
+{
+  cursor: pointer;
+
+}
+/* Our Services */
+.our-services
+{
+    width: 100%;
+    height: 800px;
+    background-color: whitesmoke
+}
+.our-services h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #0c7b65 ;;
+}
+
+.services{
+
+      width: 95%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   margin-top: 50px;
+   margin-left: 5%;
+  
+
+}
+.Free-Checkups ,.Ambulance,
+.Expert-Doctors,
+.Medicines,
+.Bed-Facility,
+.Total-Care
+{
+        width: 20%;
+       /* margin-left: 1%; */
+     height: 250px;
+      border: 2px solid;
+   border-color:solid #0c7b65 ;
+   border-radius: 5px ;
+   text-align: center;
+   padding-top: 20px;
+   line-height: 20px;   
+ box-shadow:  3px 3px #0c7b65 ;
+    background-color: white;
+margin-right: 30px;
+margin-bottom: 15px;
+
+}
+.Free-Checkups i{
+    font-size: 3rem;
+    color: #0c7b65 ;;
+}
+.Free-Checkups h1{
+margin-bottom: 20px;
+}
+.btn{
+    margin-top: 4%;
+    margin-left: 12%;
+}
+.btn  span{width: 100%;
+     height: 100%;
+      margin-top: 0px;
+}
+.fa-chevron-circle-right:before {
+    content: "\f138";
+    font-size: 25px;
+}
+
+
+.btn  span:hover{color: white;}
+
+
+.Free-Checkups i,.Ambulance i,
+.Expert-Doctors i,.Medicines i,
+.Bed-Facility i,
+.Total-Care i
+
+{
+  font-size: 3rem;
+    color: #0c7b65 ;;
+}
+
+/* About  US */
+.contact-us
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+   justify-content: center;
+}
+.about {
+   font-size: 3rem;
+  margin-left: 50%;
+  color: #333;
+
+}
+.about strong
+{
+    color: #0c7b65;
+    box-shadow: 10px 5px 5px gray;
+
+}
+.contact-us img
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Our Doctors */
+
+.Doc-Area
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.our-doctors
+{ 
+     /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 100%;
+    height: 30rem;
+    /* flex-wrap: wrap; */
+
+    background-color:whitesmoke;
+    
+}
+.docTitle
+{
+    width: 100%;
+    color: #0c7b65;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    /* margin-bottom: 30px; */
+ text-shadow: .4rem .4rem 0
+  rgba(0, 0, 0, .1);
+}
+.docTitle strong{
+    
+    color: #333;
+  /* box-shadow: 10px 5px 5px black; */
+}
+
+.doc-infos
+{
+   flex-wrap: wrap;
+   margin-left: 2%;
+   margin-right: 2%;
+    margin-top: 3%;
+    width: 33.333%;
+     border: 3px solid;
+     height: 80%;
+      border-radius: 15px ;
+      border-color:#0c7b65 ;
+    background-color: white;
+}
+
+ .doc-infos {
+         width: 100%;
+     display: flex;
+     flex-direction: column;
+       text-align: center;
+       line-height: 8px;
+ }
+ .doc-infos img{
+    width: 50%;
+     margin-left: 20%;
+     margin-right: 20%;
+     height: 186px;
+     margin-top: 5%; 
+     border: 3px solid #0c7b65;
+     border-radius: 5px;
+     box-shadow: 5px 5px 5px  #0c7b65; ;
+
+ }
+ .media-Ico 
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     text-align: center;
+     color:#0c7b65; 
+     font-size: 25px;
+     width: 85%;
+     margin-top: 6px;
+     margin-left: 5%;
+   ;
+ }
+ .media-Ico div{
+     background-color: white;
+     border:solid  2px #0c7b65 ;
+    width: 20%;
+     margin-right: 5%;
+     height: 35px;
+     text-align: center;
+     padding-top: 16px;
+     border-radius: 4px;
+   
+ }
+ .media-Ico div:hover
+ {
+     background-color:#0c7b65 ;
+     color: white;
+     cursor: pointer;
+ }
+
+ /* Section Book Area */
+
+ .Book-Now-erea
+ {
+     width: 100%;
+     height: 600px;
+     /* border: 2px solid black; */
+ 
+  /* background-color: aquamarine; */
+    }
+ .Book-title
+ {
+     text-align: center;
+     font-size: 2rem;
+     color:#0c7b65 ; 
+     text-shadow: 5px 5px 5px gray;
+ }
+ .Book-title strong
+ {
+     color: black;
+ }
+
+ .Book-erea
+ {
+     display: flex;
+     flex-direction: row;
+         
+ width: 100%;
+ /* height: 100%; */
+ 
+ }
+ .Book-erea img{
+     width: 200%;
+ }
+
+ .Book-erea :nth-child(1)
+ { width: 100%;
+     /* background-color: yellow; */
+ }
+ .Book-erea :nth-child(2){
+     /* background-color: red; */
+ width: 100%;
+ /* margin-left:30%; */
+ 
+    }
+
+    .form
+    {
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+     
+        width: 100%;
+        background-color: white;
+        border: 2px solid #0c7b65;
+        border-radius: 15px;
+    box-shadow: 0px 3px 7px #0c7b65
+    ;
+    padding: 5%;
+
+    
+
+    }
+    .form input{
+        margin-bottom: 5%;
+        height: 2.5rem;
+        border-radius: 2px;
+        border: 2px solid #0c7b65;
+        font-size: 1.5rem;
+    }
+    .book {
+        text-align: center;
+        padding-top:20px;
+        font-size: 1.5rem;
+            margin-left: 33%
+    }
+    /* Section Client reviews */
+    .clients-review
+    {
+        margin-top: 10rem;
+        width: 100%;
+        height: 600px;
+        background-color: whitesmoke;
+      
+    }
+    .client-title
+    {
+        width: 100%;
+        text-align: center;
+      
+    }
+.client-title h1{
+     padding-top: 2rem;
+}
+
+
+    .client-title strong
+    {
+    color: black;
+text-shadow: 2px 2px grey;
+    }
+    .review
+    {
+   width: 90%;
+   display: flex;
+   height: 74%;
+   flex-direction: row;
+   margin-left: 5%;
+   /* background-color: white; */
+
+
+    }
+    .client
+    {
+
+         display: flex;
+         flex-direction: column;
+        width: 100%;
+        height: 90%;
+        margin-right: 15px;
+        justify-items: center;
+       border: 2px solid #0c7b65; 
+    box-shadow: 0px 3px 7px #0c7b65
+   ;
+   background-color: white;    
+ 
+
+}
+     .imagesbackground {
+
+ color: white;
+ width: 100%;
+ height: 80%;
+  background-color:#0c7b65; ;
+    border-radius: 0% 0% 50% 50%;
+  text-align: center;
+
+
+}
+      .client img{
+         margin-top: 1.5rem;
+         height: 150px;width: 150px;
+border-radius:  50% 50%;
+
+}
+.comment
+{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+/* section Blogs */
+.Blog-area
+{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.bloger-title
+{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color:#0c7b65; ;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    
+}
+.bloger-title strong{
+       color: black;
+text-shadow: 2px 2px grey; 
+}
+
+.bloges
+{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    display: flex;
+    /* justify-content: center; */
+    /* background-color: yellow; */
+}
+.blog
+{
+    width: 26%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #0c7b65;
+  border-radius: 6px;
+  padding: 2%;
+  height: 500px;
+
+}
+.blog img{
+    border-radius: 1rem;
+}
+.blog img:hover
+{
+    cursor: pointer;
+     
+    transition:  all 1.5s;
+ object-fit: none;
+ /* object-fit: cover; */
+ object-position: left top;
+
+
+
+
+
+    }
+.outher
+{
+    color:#0c7b65;
+    margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+
+}
+.blog h1{
+    color: #333;
+    font-size: 1.8rem;
+}
+.btn
+{
+    height: 40px;
+    /* margin-top: 2rem; */
+    font-size: 1.4rem;
+    justify-content: center;
+    padding-top: 10px;
+}
+.txtblog
+{
+    font-size: 1.4rem;
+    color: gray;
+}
+/* Section Footer */
+.footer
+{
+    margin-top: 60px;
+
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+     background-color: whitesmoke;
+     /* border-bottom: 2px solid gray; */
+}
+.title-footer
+{
+    width: 25%;
+  margin-left: 5%;
+  line-height: 3rem;
+  font-size: 1.4rem;
+ 
+}
+.title-footer i{
+color:#0c7b65 ;
+font-size: 16px ;
+}
+.title-footer span:hover
+{
+  cursor: pointer;
+
+  /* transform: scale(2, 0.5); */
+  font-size: 25px;
+ transition:  all .1s;
+
+
+}
+
+.title-footer span{
+    color: gray;
+     margin-left: 6px;
+     font-size: 1.5rem;
+}
+/* copy rights */
+.copy-rights
+{
+     margin-top: 0px;
+     height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    color: gray;
+}
+.copy-rights span{
+    color: #288f7a;
+}
